@@ -6,7 +6,7 @@ journal.AddEntry("I love money.");
 journal.AddEntry("I love the world.");
 
 Persistence persistance = new();
-var file = $@"C:\Way\Temp\{journal.Name}.txt";
+var file = $@"C:\Main\Test\{journal.Name}.txt";
 persistance.SaveToFile(journal, file, true); 
 
 Process process = new()
